@@ -13,6 +13,7 @@ push() {
 	git config --global user.name "yingshaoxo"
 	git add .
 	git commit -m "update"
+    git lfs migrate import --include="*.HDF5"
 	git push origin
 }
 
