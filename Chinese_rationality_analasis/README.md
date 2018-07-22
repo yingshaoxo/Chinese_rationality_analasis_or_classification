@@ -18,11 +18,6 @@ choose this in the browser: **chinese_sentiment_analysis.ipynb**
 
 ___
 
-### 中文说明
-
-你好，我叫 yingshaoxo ，我们这次的项目用到了 keras。
-
-该模型可以检测语言是否理性，理性为`positive`，非理性为`negative`.
 
 #### 训练自己的模型
 
