@@ -14,4 +14,4 @@
 具体的机器学习代码被放在`Chinese_rationality_analasis`文件夹
 
 ### 使用方法
-具体请看 [如何使用]()
+具体请看 [如何使用](https://github.com/yingshaoxo/Chinese_rationality_analasis_or_classification/tree/master/Chinese_rationality_analasis#%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E)

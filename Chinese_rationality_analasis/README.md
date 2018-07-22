@@ -30,7 +30,7 @@ ___
 
 然后使用`jupter notebook` 按照 `training.ipynb` 的说明操作
 
-你也可以直接在线看这个 [traning.ipynb]()
+你也可以直接在线看这个 [traning.ipynb](https://github.com/yingshaoxo/Chinese_rationality_analasis_or_classification/blob/master/Chinese_rationality_analasis/training.ipynb)
 
 #### 应用模型做预测
 
