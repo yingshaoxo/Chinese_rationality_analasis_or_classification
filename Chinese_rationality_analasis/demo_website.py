@@ -1,3 +1,4 @@
+import time
 from os import listdir
 from os.path import isfile, join
 import jieba
@@ -100,6 +101,8 @@ while 1:
     my_selenium = Selenium(url)
     driver = my_selenium.driver
 
+    driver.execute_script("window.scrollBy(0,40000)")
+    time.sleep(1)
     elements = my_selenium.wait_until_exists('//p')
 
     for e in elements:
@@ -107,7 +110,7 @@ while 1:
             text = e.text.strip('\n ')
             if text != "":
                 r = predictResult(text)
-                print(text[:100], '\n', r, '\n'*2)
+                print(text, '\n', r, '\n'*2)
         except Exception as e:
             pass
 
