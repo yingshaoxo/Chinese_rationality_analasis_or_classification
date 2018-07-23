@@ -2,7 +2,7 @@
 The repo contains the trainig data located in the data folder and a jupyter notebook for the tutorial.
 
 ## Dependencies
-Python 3.6, numpy, pickle, keras, tensorflow, [jieba](https://github.com/fxsjy/jieba)
+Python 3.6, numpy, pickle, keras, tensorflow, auto_everything, [jieba](https://github.com/fxsjy/jieba)
 
 ### Optional Dependencies for plotting
 pylab, scipy
@@ -23,7 +23,7 @@ ___
 
 训练属于自己的文本分类器，你需要准备好编码格式为`utf-8`的文本文件，把它们放在`Data/positive`或`Data/negative`文件夹(其内在格式可以参考原文件夹txt文件)
 
-然后使用`jupter notebook` 按照 `training.ipynb` 的说明操作
+然后使用`jupyter notebook` 按照 `training.ipynb` 的说明操作
 
 你也可以直接在线看这个 [traning.ipynb](https://github.com/yingshaoxo/Chinese_rationality_analasis_or_classification/blob/master/Chinese_rationality_analasis/training.ipynb)
 
