@@ -29,6 +29,14 @@ ___
 
 #### 应用模型做预测
 
-运行 `demo.py`
+先运行
+
+```
+wget https://github.com/yingshaoxo/auto_everything/raw/master/env_setup.sh
+sudo bash env_setup.sh
+python3 make_sure_model_exists.py
+```
+
+再运行 `demo.py`
 
 配置好`selenium`环境的可以运行 `demo_website.py`
